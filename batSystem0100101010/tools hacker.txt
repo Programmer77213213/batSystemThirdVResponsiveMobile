@@ -1,0 +1,8 @@
+1 - mr holmes github.
+2 - seeker github.
+3 - Metasploit Framework e Meterpreter.
+4 - doxbin.
+5 - SET - The Social-Engineer Toolkit.
+6 - WGET.
+7 - Shellshock.
+8 - John the Ripper.

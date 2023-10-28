@@ -1,0 +1,566 @@
+@import url('https://fonts.cdnfonts.com/css/batman-forever');
+/*font-family: 'BatmanForeverOutline', sans-serif;
+font-family: 'BatmanForeverAlternate', sans-serif;*/
+
+* {
+    box-sizing:border-box;
+    text-align:justify;
+    font-family: 'BatmanForeverOutline', sans-serif;
+    margin:0%;
+    padding:0%;
+    list-style-type:none;
+    text-decoration:none;
+    color:rgb(0, 247, 255);    
+    transition:0.2s;
+    transition-duration:0.2s;
+    transition-delay:0.1s;
+    transition-timing-function:ease-in-out;
+}
+
+body#body-1 {
+    background-color:rgb(15, 15, 15);
+    border:3px double  rgb(0, 247, 255);
+    height:100vh;
+    background:url(background01010/binary6.webp)center ;
+    
+}
+
+/*SuperHeros & SuperVillans*/
+
+section#justice-league:hover {
+    transform:scale(1.3);
+    color:rgb(15, 15, 15);
+}
+
+section#arkham-asylum:hover {
+    transform:scale(1.3);
+    color:rgb(15, 15, 15);
+}
+
+section#gcpd-gotham:hover {
+    transform:scale(1.3);
+    color:rgb(15, 15, 15);
+}
+
+section#gotham-city:hover {
+    transform:scale(1.3);
+    color:rgb(15, 15, 15);
+}
+
+section#bat-family:hover {
+    transform:scale(1.3);
+    color:rgb(15, 15, 15);
+}
+
+section#plan-of-contigency-bat-001:hover {
+    transform:scale(1.3);
+    color:rgb(15, 15, 15);
+}
+
+.superhero {
+    border:7px double rgb(0, 247, 255);
+    height:410px;
+    width:380px;       
+    margin:22px 22px 22px 22px;
+    padding:7px 7px 7px 7px;
+}
+
+/*header with caracthers DC*/
+
+main#Data-base-main-001 {    
+    width:470px;
+    height:300px;   
+    margin:auto;
+}
+
+.sec-list-bat {
+    border:2px solid rgb(0, 247, 255);
+    padding:7px 7px 7px 7px;
+    text-align:center;
+    margin:17px 7px 17px 7px;
+}
+
+header#header-001 {
+    border:2px solid rgb(0, 247, 255);
+    padding:2px 2px 2px 2px;
+    height:100%;
+    background-color: rgb(15, 15, 15);
+    display:none;
+}
+
+.img-heros-villans {
+    height:277px;
+    width:177px;
+    border:2px solid rgb(0, 247, 255);
+    margin-left:41px;
+    margin-top:20px;
+}
+
+header#page-contigency {   
+    display:grid;
+    grid-template-areas: 
+        "s1 b1 w1"
+        "c1 m1 a1"
+        "f1 m1 a1" ;            
+}
+
+div#superman {
+    grid-area:s1;
+}
+
+div#batman {
+    grid-area:b1;
+}
+
+div#img-batman-001 {
+    border:2px solid rgb(0, 247, 255);
+    height:300px;
+    width:200px;
+    background:url(The-justice-league/Batman\ t1.jpg)no-repeat center;
+    background-size:cover;
+    margin:auto;
+}
+
+div#img-superman-001 {
+    border:2px solid rgb(0, 247, 255);
+    height:300px;
+    width:200px;
+    background:url(The-justice-league/Superman\ t1.webp)no-repeat center;
+    background-size:cover;
+    margin:auto;
+}
+
+div#img-wonder-womam-001 {
+    border:2px solid rgb(0, 247, 255);
+    height:300px;
+    width:200px;
+    background:url(The-justice-league/ww\ t1.jpg)no-repeat center;
+    background-size:cover;
+    margin:auto;
+}
+
+div#img-cyborg-001 {
+    border:2px solid rgb(0, 247, 255);
+    height:300px;
+    width:200px;
+    background:url(The-justice-league/cyborg\ t1.jpg)no-repeat center;
+    background-size:cover;
+    margin:auto;
+}
+
+div#img-mars-hunter-001 {
+    border:2px solid rgb(0, 247, 255);
+    height:300px;
+    width:200px;
+    background:url(The-justice-league/Mh\ t1.jpg)no-repeat center;
+    background-size:cover;
+    margin:auto;
+}
+
+div#img-aquaman-001 {
+    border:2px solid rgb(0, 247, 255);
+    height:300px;
+    width:200px;
+    background:url(The-justice-league/aquaman\ t1.jpg)no-repeat center;
+    background-size:cover;
+    margin:auto;
+}
+
+div#img-flash-001 {
+    border:2px solid rgb(0, 247, 255);
+    height:300px;
+    width:200px;
+    background:url(The-justice-league/Flash\ t1.webp)no-repeat center;
+    background-size:cover;
+    margin:auto;
+}
+
+.tittle-name-class {
+    text-align:center;
+}
+
+a#button-back-last-page-index-001 {
+    border:2px solid rgb(0, 247, 255);
+    background-color: rgb(15, 15, 15);
+    padding:7px 7px 7px 7px;
+    height:47px;
+    width:100px;
+    text-align:center;
+    font-size:20px;
+    margin:70px 10px 10px 70px;   
+}
+
+a#button-back-last-page-index-001:hover {
+    border:2px solid rgb(0, 247, 255);
+    background-color:rgb(0, 247, 255); 
+    color:rgb(15, 15, 15);    
+    transform:rotate(180deg);
+}
+
+button#button-list-options-back-fullPage {
+    border:2px solid rgb(0, 247, 255);
+    background-color: rgb(15, 15, 15);
+    padding:7px 7px 7px 7px;
+    height:47px;
+    width:100px;
+    text-align:center;
+    font-size:20px;
+}
+
+button#button-list-options-back-fullPage:hover {
+    border:2px solid rgb(0, 247, 255);
+    background-color:rgb(0, 247, 255); 
+    color:rgb(15, 15, 15);    
+    transform:rotate(180deg);
+    font-family: 'BatmanForeverAlternate', sans-serif;
+}
+
+section#list-style-back-001 {
+    border:2px solid transparent;
+}
+
+
+/*---heros---transition---*/
+div#img-batman-001:hover {
+    border:2px solid rgb(255, 217, 0);
+    background:url(The-justice-league/batman\ t2.webp)no-repeat center;
+    background-size:cover; 
+}
+
+div#img-superman-001:hover {
+    border:2px solid rgb(2, 0, 114);
+    background:url(The-justice-league/Superman\ t2.webp)no-repeat center;
+    background-size:cover;   
+}
+
+div#img-wonder-womam-001:hover {
+    border:2px solid rgb(209, 0, 0);
+    background:url(The-justice-league/Ww\ t2.jpg)no-repeat center;
+    background-size:cover;
+}
+
+div#img-cyborg-001:hover {
+    border:2px solid rgb(255, 0, 0);  
+    background:url(The-justice-league/cyborg\ t2.jpg)no-repeat center;
+    background-size:cover;
+}
+
+div#img-mars-hunter-001:hover {
+    border:2px solid rgb(24, 85, 0);   
+    background:url(The-justice-league/Mh\ t2.jpg)no-repeat center;
+    background-size:cover;
+ 
+}
+
+div#img-aquaman-001:hover {
+    border:2px solid rgb(255, 187, 0); 
+    background:url(The-justice-league/aquaman\ t2.webp)no-repeat center;
+    background-size:cover; 
+}
+
+div#img-flash-001:hover {
+    border:2px solid rgb(255, 238, 0);  
+    background:url(The-justice-league/Flash\ t2.jpg)no-repeat center;
+    background-size:cover;   
+}
+/*
+div#batman:hover > #div-batman > #img-batman-001 {
+    background:url(The-justice-league/batman_700-cover-by-david-finch.webp)no-repeat center;
+    background-size:cover;
+    margin:auto;
+}*/
+
+div#batman > #div-batman > #img-batman-001 {  
+    margin:auto;
+}
+
+div#wonder-womam {
+    grid-area:w1;
+}
+
+div#cyborg {
+    grid-area:c1;
+}
+
+div#mars-hunter {
+    grid-area:m1;
+}
+
+div#aquaman {
+    grid-area:a1;
+}
+
+div#flash {
+    grid-area:f1;
+}
+
+
+
+/*The main part*/
+main#main-nav-menu {   
+    padding:7px 7px 7px 7px;
+    width:600px;    
+    width:700px;
+    margin:auto;
+}
+
+nav#nav-menu {
+    margin-top:277px;   
+    height:170px;
+}
+
+ul#ul-list-li li {
+    display:inline-block;
+    margin-right:30px;
+    font-size:23px;
+}
+
+a#dataBase {
+    border:2px solid rgb(0, 247, 255);
+    padding:15px;
+}
+
+a#systemLog {
+    border:2px solid rgb(0, 247, 255);
+    padding:15px;
+}
+
+a#setup {
+    border:2px solid rgb(0, 247, 255);
+    padding:15px;
+}
+
+/*System Log Config*/
+
+button#back-menu {
+    border:1px solid rgb(0, 247, 255);
+    background-color:rgb(15, 15, 15);
+    color:rgb(0, 247, 255);
+    font-family: 'BatmanForeverOutline', sans-serif;
+    padding:17px 17px 17px 17px;
+    font-size:23px;    
+}
+
+button#back-menu:hover {
+    transform:scale(1.4);    
+    font-family: 'BatmanForeverAlternate', sans-serif;
+    background-color:rgb(0, 247, 255);
+    color:rgb(15, 15, 15);
+}
+
+div#information-site {
+    margin-bottom:150px;
+}
+
+main#system-log-main-screen-001 {
+    background-color:rgb(15, 15, 15);
+    height:100%;
+    padding:17px;
+    font-family: 'BatmanForeverOutline', sans-serif;
+    display:none;
+}
+
+main#system-log-main-screen-001 h1, h2, h3, p, a, div {   
+    font-family: 'BatmanForeverAlternate', sans-serif;   
+}
+
+ul#ul-list-div-system-log li {
+    display:inline-block;
+}
+
+div#div-001 {
+    border:2px solid rgb(0, 247, 255);
+    height:200px;
+    width:200px;
+    background:url(background01010/binary5.webp);
+    background-size:cover;
+}
+
+/*Animation Buttons*/
+
+
+a#dataBase:hover {     
+    background-color:rgb(0, 247, 255);
+    color:rgb(15, 15, 15);
+    font-weight:bolder;
+    transition:0.2s;
+    transition-duration:0.2s;
+    transition-delay:0.1s;
+    transition-timing-function:ease-in-out;    
+}
+
+a#systemLog:hover {
+    background-color:rgb(0, 247, 255);
+    color:rgb(15, 15, 15);
+    font-weight:bolder;
+    transition:0.2s;
+    transition-duration:0.2s;
+    transition-delay:0.1s;
+    transition-timing-function:ease-in-out;  
+}
+
+a#setup:hover {
+    background-color:rgb(0, 247, 255);
+    color:rgb(15, 15, 15);
+    font-weight:bolder;
+    transition:0.2s;
+    transition-duration:0.2s;
+    transition-delay:0.1s;
+    transition-timing-function:ease-in-out;
+}
+
+/*Display--Screen--Superman*/
+
+section#powers-superman-001 > ul > li h1 {
+    font-family:'Courier New', Courier, monospace, sans-serif;
+    font-weight:lighter;
+    font-size:17px;    
+    text-align:center;
+    text-decoration:underline;    
+}
+
+div#containner-superman-info {
+    border:2px solid rgb(0, 247, 255);
+    padding:7px 7px 7px 7px;
+    margin:7px 7px 7px 7px;
+    width:700px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+section#weaknesses-superman-001 > ul > li h1 {
+    font-family:'Courier New', Courier, monospace, sans-serif;
+    font-weight:lighter;
+    font-size:17px;    
+    text-align:center;
+    text-decoration:underline;
+}
+
+section#weaknesses-superman-001 {
+    border:2px solid rgb(0, 247, 255);
+    height:190px;
+    width:270px;
+    padding:7px 7px 7px 7px;    
+}
+
+section#weaknesses-superman-001 > h1 {
+    text-align:center;
+}
+
+section#powers-superman-001 {
+    border:2px solid rgb(0, 247, 255);
+    height:190px;
+    width:270px;
+    padding:7px 7px 7px 7px;
+}
+
+img#img-data-base-person-hero-001 {
+    height:200px;
+    width:150px;
+    border:7px double rgb(0, 247, 255);
+}
+
+header#information-superman-001 {
+    border:2px solid rgb(0, 247, 255);
+    padding:7px 7px 7px 7px;
+    display:grid;
+    grid-template-areas: 
+        "screen1 screen2";
+}
+
+header#information-superman-001 > #box-002-data-s h1, h2, h3, h4, p {
+    font-family:'Courier New', Courier, monospace;
+    font-size:22px;
+    font-weight:lighter;
+}
+
+div#box-001-data-s {
+    grid-area:screen1;
+}
+
+div#box-002-data-s {
+    grid-area:screen2;
+}
+
+main#display-screen-database-Superman {
+    display:none;
+}
+
+button#btn-superman-back-page {
+    border:2px solid rgb(0, 247, 255);
+    background-color: rgb(15, 15, 15);
+    padding:7px 7px 7px 7px;
+    height:47px;
+    width:100px;
+    text-align:center;
+    font-size:20px;
+    margin:10px 10px 10px 70px;
+}
+
+button#button-back-smartphone-001 {
+    border:2px solid rgb(0, 247, 255);
+    background-color: rgb(15, 15, 15);
+    padding:7px 7px 7px 7px;
+    height:47px;
+    width:100px;
+    text-align:center;
+    font-size:20px;
+    margin:10px 10px 10px 70px;
+}
+
+button#btn-superman-back-page:hover {
+    border:2px solid rgb(0, 247, 255);
+    background-color:rgb(0, 247, 255); 
+    color:rgb(15, 15, 15);    
+    transform:rotate(180deg);
+}
+
+::-webkit-scrollbar {
+    width:10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color:rgb(0, 247, 255);
+}
+
+
+
+
+
+
+
+@media screen and (max-width:768px){
+   ul#ul-list-li li {
+    display:block;
+    margin-bottom:37px;
+   }
+
+   nav#nav-menu {
+    margin:50px 0px 0px 50px;
+   }
+
+   ul#ul-list-section-data-base-options li {
+    width:360px;                           
+   }
+
+   header#page-contigency {
+    display:inline-block;
+   }
+
+   .box-heros-config {
+    width:30px;
+   }
+
+   button#btn-superman-back-page {
+    display:none;
+   }
+
+   .superhero {  
+     height:410px;
+     width:330px;       
+     margin:22px 22px 22px 22px;
+     padding:7px 7px 7px 7px;
+    }
+
+}

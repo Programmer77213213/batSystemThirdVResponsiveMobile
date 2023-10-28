@@ -1,0 +1,169 @@
+<!--Developer: Eliezer Felipe Souza Alegre-->
+<!--Date: 30/09/2023-->
+<!--Hour: 11:43-->
+<!---->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/batman-forever" rel="stylesheet">
+    <!--<script src="terminal.js"></script>-->
+    <title>Bat System</title>
+</head>
+<body id="body-1">
+    <nav id="nav-menu">
+        <main id="main-nav-menu">
+            <ul id="ul-list-li">
+                <li><a id="dataBase" href="#">DataBase</a></li>
+                <li><a id="systemLog" href="#">System Log</a></li>
+                <li><a id="setup" href="#">Setup</a></li>
+            </ul>
+        </main>        
+    </nav>
+
+    <header id="header-001">
+        <main id="Data-base-main-001">
+            <ul id="ul-list-section-data-base-options">
+                <li>
+                    <section class="sec-list-bat" id="justice-league">
+                        <a href="#">Justice League</a>                
+                    </section>
+                </li>
+                <li>
+                    <section class="sec-list-bat" id="arkham-asylum">
+                        <a href="#">Arkham Asylum</a>                
+                    </section>
+                </li>
+                <li>
+                    <section class="sec-list-bat" id="gcpd-gotham">
+                        <a href="#">GCPD Gotham</a>                
+                    </section>
+                </li>
+                <li>
+                    <section class="sec-list-bat" id="gotham-city">
+                        <a href="#">Gotham City</a>                
+                    </section>
+                </li>
+                <li>
+                    <section class="sec-list-bat" id="bat-family">
+                        <a href="#">Bat Family</a>                
+                    </section>
+                </li>
+                <li>
+                    <section class="sec-list-bat" id="plan-of-contigency-bat-001">
+                        <a href="plan-Contigency.html">Plans Contigency</a>
+                    </section>
+                </li>
+                <li>
+                    <section class="sec-list-bat" id="list-style-back-001">
+                        <button id="button-list-options-back-fullPage" type="button">Back</button>
+                    </section>
+                </li>
+            </ul>
+        </main>
+    </header>
+
+    <main id="system-log-main-screen-001">
+        <ul>
+            <li>
+                <div>
+                    🟢 Data of Navigator:<span id="navigator-data"></span>
+                </div>            
+            </li>
+            <li>
+                <div>
+                    🟡 Set Characteres page:<span id="set-char"></span>
+                </div>
+            </li>
+            <li>
+                <div id="information-site">
+                    🔴 Site Information:<span id="information-site"></span>
+                </div>
+            </li>
+        </ul>
+        <ul id="ul-list-div-system-log">
+            <li>
+                <div id="div-001">
+                  
+                </div>
+            </li>
+            <li>
+                <button id="back-menu" type="button">Back</button>
+            </li>     
+        </ul>
+    </main>
+
+    <footer id="footer-001">
+
+    </footer>
+    <script>
+
+        /*Buttons||comands*/
+    var  $systemLogButton$ = window.document.querySelector("a#systemLog");
+
+    var $backMenu$ = window.document.querySelector("button#back-menu");
+
+    var $dataBase$ = window.document.querySelector("a#dataBase");
+
+    var btnExitListAcessBackFullPage = window.document.querySelector("button#button-list-options-back-fullPage");
+
+    /*windows||elements*/  
+    var $headerWindow001$ = window.document.querySelector("header#header-001");
+
+    var $informationSite$ = window.document.querySelector("span#information-site");
+
+    var $setChar$ = window.document.querySelector("span#set-char");
+
+    var $systemLOogMainScreen001$ = window.document.querySelector("main#system-log-main-screen-001");
+    
+    var $navMenu$ = window.document.querySelector("nav#nav-menu");  
+    
+     /*Visual modification*/   
+    var $navigatorData$ = window.document.querySelector("span#navigator-data");
+    
+    /*events||defFunctions*/
+    $systemLogButton$.addEventListener(`click`, windowScreenSytLog);
+    $dataBase$.addEventListener(`click`, DataBaseWindowScreen);
+    $backMenu$.addEventListener(`click`, backForMenu);
+    btnExitListAcessBackFullPage.addEventListener(`click`, backIndexhomePage);
+
+        /*Functions*/
+
+        /*Close Window*/
+     function backIndexhomePage(){
+        $navMenu$.style.display = `block`;
+        $headerWindow001$.style.display = `none`;
+        
+     }
+
+    function backForMenu(){
+        $navMenu$.style.display = `block`;
+        $systemLOogMainScreen001$.style.display = `none`;
+
+    }
+
+    /*Open Window*/
+    function DataBaseWindowScreen(){
+        $headerWindow001$.style.display = `block`;
+        $navMenu$.style.display = `none`;
+    }
+
+    function windowScreenSytLog(){
+        $navMenu$.style.display = `none`;
+        $systemLOogMainScreen001$.style.display = `block`;
+        $navigatorData$.innerText = `${window.navigator.appName}`;
+        $navigatorData$.style.color = `yellowgreen`;
+        $navigatorData$.style.fontSize = `22px`;
+        $setChar$.innerText = `${window.document.charset}`;
+        $setChar$.style.color = `yellowgreen`;
+        $setChar$.style.fontSize = `22px`;
+        $informationSite$.innerText = `${window.document.URL}`;
+        $informationSite$.style.color = `yellowgreen`;
+        $informationSite$.style.fontSize = `22px`;
+    } 
+
+    </script>
+</body>
+</html>
